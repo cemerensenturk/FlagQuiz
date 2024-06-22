@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Flag Quiz by Kafeinal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Flags Quiz by Kafeinal</h1>
+    <div class="countries" id="countries">
+
+    </div>
+
+    <div id="quiz-container">
+        <div id="question">
+            <img id="flag-image" src="" alt="Bayrak">
+            <!-- <h2 id="question-text">Which one is the correct flag?</h2> -->
+        </div>
+        <div id="options">
+        </div>
+        <div id="score">
+            Score: <span id="score-value">0</span>/<span id="question-count-value">0</span>
+        </div>
+        <div id="countryInfo">
+        </div>
+        <button id="next-question" onclick="showNextQuestion()">Next Question</button> <!-- Next Question butonu -->
+    </div>
+    
+
+    <!-- API script -->
+    <script src="js/quiz.js"></script>
+</body>
+</html>

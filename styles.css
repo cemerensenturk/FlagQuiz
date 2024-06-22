@@ -1,0 +1,68 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.2) url(./img/opacityFlag.png);
+}
+h1{
+    margin: 0 auto;
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+img{
+    width: 100%;
+}
+
+/*QUIZ*/
+#quiz-container, #question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#flag-image{
+    border: 4px solid black;
+}
+
+#score{
+    margin-top: 3%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#countryInfo{
+    margin-top: 3%;
+    background-color: white;
+    max-width: 80%;
+}
+
+#options{
+    display: flex;
+    gap: 15px;
+    margin-top: 3%;
+}
+
+.option-btn{
+    max-width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#next-question{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 576px){
+
+}
